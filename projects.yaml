@@ -62,6 +62,10 @@ projects:
         - *module_if
         - *module_hic_sam3u2c
         - records/board/mkit_dk_dongle_nrf5x.yaml
+    kl26z_calliope_if:
+            - *module_if
+            - *module_hic_kl26z
+            - records/board/calliope.yaml
     kl26z_microbit_if:
         - *module_if
         - *module_hic_kl26z
